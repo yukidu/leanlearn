@@ -12,9 +12,10 @@ export default function Index() {
     <div style={{ fontFamily: "Inter, sans-serif", lineHeight: "1.6", padding: "2rem" }}>
       <h1>Welcome to leanlearn</h1>
       <p>A lean course platform inspired by LearnHouse, built with Better Auth, Hono, and Cloudflare D1.</p>
+      <p style={{ color: "#64748b" }}>Preview mode: browse sample courses without connecting Google or your own member account.</p>
       <div style={{ marginTop: "2rem" }}>
-        <a href="/login" style={{ padding: "0.5rem 1rem", backgroundColor: "#0070f3", color: "white", textDecoration: "none", borderRadius: "5px" }}>
-          Get Started
+        <a href="/dashboard" style={{ padding: "0.5rem 1rem", backgroundColor: "#0070f3", color: "white", textDecoration: "none", borderRadius: "5px" }}>
+          Explore Demo
         </a>
       </div>
     </div>
